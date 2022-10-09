@@ -43,6 +43,52 @@ function factorialize(num) {
 document.write(factorialize(5));
 
 document.write("</br></br>Questão 05 </br></br>");
+
+var mdc, n1, n2, r1;
+n1 = 27;
+n2 = 9;
+
+if (n1 < n2) {
+  [n1, n2] = [n2, n1];
+}
+
+[r1, mdc] = [n1 % n2, n2];
+
+while (r1 !== 0) {
+  [r1, mdc] = [mdc % r1, r1];
+}
+
+document.write("N1 " + n1 + " N2 " + n2 + " MDC " + mdc);
+
+
 document.write("</br></br>Questão 06 </br></br>");
+
+  var num1 = 8;
+  var num2 = 11;
+  var num3 = 2;
+
+  var aux = num1;
+
+  if (num2 < num1) {
+    aux = num2;
+    num2 = num1;
+    num1 = aux;
+  }
+
+  if (num3 < num1) {
+    aux = num3;
+    num3 = num1;
+    num1 = aux;
+  }
+
+  if (num3 < num2) {
+    aux = num3;
+    num3 = num2;
+    num2 = aux;
+  }
+
+  document.write(num1 + "-" + num2 + "-" + num3);
+
+
 document.write("</br></br>Questão 07 </br></br>");
 document.write("</br></br>Questão 08 </br></br>");
