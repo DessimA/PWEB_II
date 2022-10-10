@@ -1,5 +1,5 @@
 
-document.write("</br></br>Questão 07 </br></br>");
+document.write("Questão 07 - Dado o tamanho da base e da altura de um retângulo, calcular a sua área e o seu perímetro.</br></br>");
 
 let base = 8;
 let altura = 5;
@@ -7,11 +7,11 @@ let altura = 5;
 let area;
 let perimetro;
 
-document.write("O valor da Base e --> ", base + "<br>");
-document.write("O valor da Altura e --> ", altura + "<br>" + "<br>");
+document.write("Base igual a ", base + "<br>");
+document.write("Altura igual a ", altura + "<br>" + "<br>");
 
 area = base * altura;
-document.write("A Area do Retangulo e: ", area + "<br>");
+document.write("Area do Retangulo: ", area + "<br>");
 
 perimetro = 2 * base + 2 * altura;
-document.write("A Area do Perimetro e: ", perimetro);
+document.write("Area do Perimetro: ", perimetro);

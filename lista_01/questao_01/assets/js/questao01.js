@@ -7,3 +7,4 @@ num_int.forEach(element => {
   document.write(element ** 2 + " ");
 
 });
+

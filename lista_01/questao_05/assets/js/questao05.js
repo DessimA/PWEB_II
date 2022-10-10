@@ -1,4 +1,4 @@
-document.write("</br></br>Questão 05 </br></br>");
+document.write("Questão 05 - Dados dois números inteiros positivos, determinar o máximo divisor comum entre eles usando o algoritmo de Euclides.</br></br>");
 
 var mdc, n1, n2, r1;
 n1 = 27;
@@ -14,5 +14,5 @@ while (r1 !== 0) {
   [r1, mdc] = [mdc % r1, r1];
 }
 
-document.write("N1 " + n1 + " N2 " + n2 + " MDC " + mdc);
+document.write("O MDC dos números " + n1 + "  e " + n2 + " é " + mdc);
 

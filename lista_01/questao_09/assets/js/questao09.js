@@ -1,17 +1,18 @@
-document.write("</br></br>Questão 09 </br></br>");
+document.write("Questão 09 - Escreva um programa que determine se um dado número N (digitado pelo usuário) é primo ou não.</br></br>");
 
-function primo() {
-  var numero = parseInt(document.getElementById('num').value);
-  var resposta = document.getElementById('resposta');
-  var divisores = 0;
+  let numero = 81;
+  let divisores = 0;
+
+document.write("Entrada: " + numero + "</br>");
 
   for (var count = 1; count <= numero; count++)
     if (numero % count == 0)
       divisores++;
 
   if (divisores == 2)
-    resposta.innerHTML = 'É primo';
+    document.write("Resultado :" + numero + " é primo");
   else
-    resposta.innerHTML = 'Não é primo';
-}
+  document.write("Resultado: " + numero + " não é primo");
+
+
 

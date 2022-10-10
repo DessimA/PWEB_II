@@ -1,9 +1,11 @@
-document.write("</br></br>Questão 11 </br></br>");
+document.write("Questão 11 - Escreva um programa que leia 3 valores e escreva a soma dos 2 maiores.</br></br>");
 
-let a = 8;
-let b = 5;
-let c = 12;
+let a = 4;
+let b = 1;
+let c = 7;
 let soma;
+
+document.write("Os valores de entrada foram: " + a + " " + b + " " + c + "</br>");
 
 if (a > b && b > c) {
   soma = a + b;
