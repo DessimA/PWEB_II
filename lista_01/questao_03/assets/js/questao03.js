@@ -1,12 +1,8 @@
-document.write("</br></br>Questão 03 </br></br>");
+document.write("Questão 03 - Dados um inteiro x e um inteiro não-negativo n, calcular x^n.</br></br>");
 
-let x = 4;
-const n = 4;
-let pot = 0;
-if (n > 0) {
-  for (i = 0; i <= n; i++) {
-    res = x * x;
-    pot = x * res;
-  }
-  document.write(pot);
+let x = 8;
+let n = 5;
+document.write("O 'x' é igual a: " + x + " 'n' igual a: "+ n + "</br>");
+if (n > 0) {  
+  document.write("Resultado: " + x**n);
 }
