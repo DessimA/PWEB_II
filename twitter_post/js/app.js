@@ -14,7 +14,7 @@ btnAdd.onclick = function (e) {
   <div class="post">
         <div class="post__avatar">
           <img
-            src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+            src="src/images/maleProfile.png"
             alt=""
           />
         </div>
@@ -23,9 +23,9 @@ btnAdd.onclick = function (e) {
           <div class="post__header">
             <div class="post__headerText">
               <h3>
-                Somanath Goudar
+                DessimA
                 <span class="post__headerSpecial"
-                  ><span class="material-icons post__badge"> verified </span>@somanathg</span>
+                  ><span class="material-icons post__badge"> verified </span>@DessimA</span>
                 </h3>
             </div>
             <div class="post__headerDescription">
